@@ -1,0 +1,27 @@
+.switch {
+  padding: 10px 0;
+
+  ul {
+    width: 90%;
+    display: flex;
+    border-radius: 85px;
+    background-color: #111111;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 10px;
+
+    li {
+      width: 100%;
+      text-align: center;
+      color: #2f2f2f;
+      padding: 5px;
+    }
+  }
+}
+
+.active {
+  border: 2px solid white;
+  border-radius: 85px;
+  background-color: #2f2f2f;
+  color: white !important;
+}

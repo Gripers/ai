@@ -1,0 +1,48 @@
+.drawer {
+  width: 100% !important;
+  background-color: #373737 !important;
+  padding: 20px;
+
+  .header {
+    .info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        border-radius: 50%;
+      }
+
+      p {
+        opacity: 0.5;
+      }
+    }
+
+    .check {
+      width: fit-content;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border: 2px solid white;
+      border-radius: 25px;
+      background-color: #2f2f2f;
+      margin-top: 20px;
+      padding: 5px 20px;
+
+      button {
+        border-radius: 25px;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+  .body {
+    margin: 20px 0;
+
+    .select {
+      margin-top: 10px;
+    }
+  }
+}

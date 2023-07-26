@@ -1,0 +1,12 @@
+.header .top {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111111;
+  padding: 10px;
+
+  .check {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
